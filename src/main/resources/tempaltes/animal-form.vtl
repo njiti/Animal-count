@@ -1,0 +1,35 @@
+<div class = "container animal-form" >
+    <form action="/animals" method="post" >
+            <div class="form-group">
+            <label for="name">Name of Animal</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Animal Name"/>
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="health">Health Of The Animal</label>
+                <select class="form-control" name="health">
+                    <option>$HEALTHY</option>
+                    <option>$OKAY</option>
+                    <option>$ILL</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age Of The Animal</label>
+                <select class="form-control" name="age">
+                    <option>$NEWBORN</option>
+                    <option>$YOUNG</option>
+                    <option>$ADULT</option>
+                </select>
+            </div>
+
+         <input type="checkbox" name="endangered" value="yes"/>
+                    <label for="endangered">Check if species is endangered</label>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+</div>
+

@@ -1,0 +1,20 @@
+<div class="card text-center list-group  bg-dark ">
+#foreach ($sighting in $sightings)
+  <div class="card-header">
+     <a href="" class="list-group-item list-group-item-action list-group-item-light">Time Spotted: $sighting.getFormattedDate()</a>
+  </div>
+  <div class="card-body">
+
+     <a href="" class="list-group-item list-group-item-action list-group-item-light">Location Spotted: $sighting.getLocation()</a>
+     <a href="" class="list-group-item list-group-item-action list-group-item-light">Ranger Name: $sighting.getRangerName()</a>
+
+
+            <br/><a href="#" class="btn btn-primary">Check Animal</a>
+  </div>
+  <div class="card-footer text-muted">
+
+  #end
+  </div>
+</div>
+<br>
+<br>
