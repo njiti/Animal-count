@@ -10,7 +10,7 @@ This is a web app aimed at helping forest rangers take count of the animals in t
 ## Setup/Installation Requirements
 * Clone the repo
 ```
-$ git clone :https://github.com/njiti/Command-Line-Caesar-Cipher.git
+$ git clone :https://github.com/njiti/Animal-count.git
 ```
 * Open  the project on Intelli j Code/ your editor of choice
 * Open the project on live server
@@ -23,7 +23,10 @@ No known bug
 *Html
 *Css
 
-##Live link: 
+##Live link
+```
+$ :https://github.com/njiti/Animal-count.git
+```
 
 ## Support and contact details
 If you want to contact me, email me on  kamaukan77@gmail.com
